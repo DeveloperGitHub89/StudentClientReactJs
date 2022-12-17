@@ -20,6 +20,9 @@ export class NavigationBar extends Component {
                             <LinkContainer to={'/students-list'}>
                                 <Nav.Link>View All Students</Nav.Link>
                             </LinkContainer>
+                            <LinkContainer to={'/students-filter'}>
+                                <Nav.Link>Filter Students</Nav.Link>
+                            </LinkContainer>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
